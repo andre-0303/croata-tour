@@ -57,7 +57,7 @@ src/
 - **Cards**: Imagens oficiais Croatá.ce.gov.br
 
 ## 🚀 Deploy
-[Deploy grátis no Vercel](https://vercel.com/new/git/external)
+[Croatá-Tour](https://croata-tour.vercel.app)
 
 ## 📚 Case de Estudo Técnico
 Este projeto é um **case de estudo técnico** focado em **Design System** moderno:
