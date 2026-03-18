@@ -11,6 +11,7 @@ interface ButtonProps {
   children: ReactNode;
   className?: string;
   href?: string;
+  onClick?: () => void;
 }
 
 export function Button({
@@ -32,7 +33,7 @@ export function Button({
       "bg-[var(--color-secondary)] text-[var(--color-secondary-foreground)] hover:opacity-90 focus:ring-[var(--color-secondary)]",
 
     outline:
-      "border border-[var(--color-border)] text-[var(--color-text)] hover:bg-[var(--color-surface)]",
+      "border border-[var(--color-border)] text-[var(--color-text)] hover:bg-[var(--color-accent)]",
 
     ghost: "text-[var(--color-text)] hover:bg-[var(--color-surface)]",
   };
